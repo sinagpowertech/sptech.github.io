@@ -1,1 +1,0 @@
-# sptech.github.io
