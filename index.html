@@ -1,659 +1,876 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Your description">
-    <meta name="author" content="Your name">
-
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
-
-    <!-- Webpage Title -->
-    <title>Sinagpower Technology Philippines Inc.</title>
-
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="./css/aos.min.css" rel="stylesheet">
-    <link href="./css/swiper.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-
-    <!-- Favicon -->
-    <link rel="icon" href="./assets/images/favicon.png">
-</head>
-<body>
-    
-    <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
-        <div class="container">
-
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="assets/images/sinag.png" alt="alternative"></a>
-
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!--<a class="navbar-brand logo-text" href="index.html">Mirko</a>  -->
-
-            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
-                <ul class="navbar-nav ms-auto navbar-nav-scroll">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#plans">Plans</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop</a>
-                        
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="article.html">Article Details</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+<!--
+ * A Design by GraphBerry
+ * Author: GraphBerry
+ * Author URL: http://graphberry.com
+ * License: http://graphberry.com/pages/license
+-->
+<html lang="en"><head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sinagpower Technology Philippines Inc.</title>
+        <!-- Load Roboto font -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <!-- Load css styles -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/pluton.css" />
+        <!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+        <link rel="shortcut icon" href="images/ico/favicon.png">
+    </head>
+        
+    <body>
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a href="#" class="brand">
+                        <img src="images/logo.svg" width="150" height="60" alt="Logo" />
+                        <!-- This is website logo -->
+                    </a>
+                    <!-- Navigation button, visible on small resolution -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <i class="icon-menu"></i>
+                    </button>
+                    <!-- Main navigation -->
+                    <div class="nav-collapse collapse pull-right">
+                        <ul class="nav" id="top-navigation">
+                            <li class="active"><a href="#home">Home</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#partners">Partners</a></li>
+                            <li><a href="#learn">Learn</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
+                    </div>
+                    <!-- End main navigation -->
+                </div>
+            </div>
+        </div>
+        <!-- Start home section -->
+        <div id="home">
+            <!-- Start cSlider -->
+            <div id="da-slider" class="da-slider">
+                <div class="triangle"></div>
+                <!-- mask elemet use for masking background image -->
+                <div class="mask"></div>
+                <!-- All slides centred in container element -->
+                <div class="container">
+                    <!-- Start first slide -->
+                    <div class="da-slide">
+                        <h2 class="fittext2">Welcome to Sinagpower Technology Philippines Inc.</h2>
+                        <h4>Building beyond expectation</h4>
+                        <p>SinagPower Technology Philippines Inc. began works as a contractor in the mid-year of 2019. The company started to serve first as manpower for the installation of solar powered establishment and distribution line projects.</p>
+                        <a href="#about" class="da-link button">Read more</a>
+                        <div class="da-img">
+                            <img src="images/Slider01.png" alt="image01" width="320">
+                        </div>
+                    </div>
+                    <!-- End first slide -->
+                    <!-- Start second slide -->
+                    <div class="da-slide">
+                        <h2>Company</h2>
+                        <h4>Vision</h4>
+                        <p>To be recognized as one of the respected electrical contractor and be known in the electrical industry on promoting natural resources and supporting power industry using renewable energy in the Philippines.</p>
+                        <a href="#about" class="da-link button">Read more</a>
+                        <div class="da-img">
+                            <img src="images/Slider02.png" width="320" alt="image02">
+                        </div>
+                    </div>
+                    <!-- End second slide -->
+                    <!-- Start third slide -->
+                    <div class="da-slide">
+                        <h2>Company</h2>
+                        <h4>Mission</h4>
+                        <p>To construct a solar powered community. To build a transmission and distribution line that aims to reach secluded area in the Philippines. To deliver a good quality service needed by the client. Always</p>
+                        <a href="#about" class="da-link button">Read more</a>
+                        <div class="da-img">
+                            <img src="images/Slider03.png" width="320" alt="image03">
+                        </div>
+                    </div>
+                    <!-- Start third slide -->
+                    <!-- Start cSlide navigation arrows -->
+                    <div class="da-arrows">
+                        <span class="da-arrows-prev"></span>
+                        <span class="da-arrows-next"></span>
+                    </div>
+                    <!-- End cSlide navigation arrows -->
+                </div>
+            </div>
+        </div>
+        <!-- End home section -->
+        <!-- Service section start -->
+        <div class="section primary-section" id="service">
+            <div class="container">
+                <!-- Start title section -->
+                <div class="title">
+                    <h1>What We Do?</h1>
+                    <!-- Section's title goes here -->
+                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                    <!--Simple description for section goes here. -->
+                </div>
+                <div class="row-fluid">
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+								<img class="img-circle" src="images/Service1.png" alt="service 1">
+                            </div>
+                            <h3>Electrical Distribution Line</h3>
+                            <p>We Design for you.</p>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <img class="img-circle" src="images/Service2.png" alt="service 2" />
+                            </div>
+                            <h3>Solar Powered Systems</h3>
+                            <p>We Design for you.</p>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <img class="img-circle" src="images/Service3.png" alt="service 3">
+                            </div>
+                            <h3>Electrical Design and Layout</h3>
+                            <p>We Design for you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service section end -->
+        <!-- Portfolio section start -->
+        <div class="section secondary-section " id="portfolio">
+            <div class="triangle"></div>
+            <div class="container">
+                <div class=" title">
+                    <h1>Have You Seen our Works?</h1>
+                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                </div>
+                <ul class="nav nav-pills">
+                    <li class="filter" data-filter="all">
+                        <a href="#noAction">All</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                    <li class="filter" data-filter="web">
+                        <a href="#noAction">Web</a>
+                    </li>
+                    <li class="filter" data-filter="photo">
+                        <a href="#noAction">Photo</a>
+                    </li>
+                    <li class="filter" data-filter="identity">
+                        <a href="#noAction">Identity</a>
                     </li>
                 </ul>
-                <span class="nav-item social-icons">
-                    <span class="fa-stack">
-                        <a href="https://web.facebook.com/sinagpowertech">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <!-- <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x"></i>
-                        </a>
-                    </span> -->
-                </span>
-            </div> <!-- end of navbar-collapse -->
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
-
-
-    <!-- Home -->
-    <section class="home py-5 d-flex align-items-center" id="header">
-        <div class="container text-light py-5"  data-aos="fade-right"> 
-            <h1 class="headline">Building <span class="home_text">Beyond</span><br>Expectation</h1>
-            <p class="para para-light py-3">SINAGPOWER TECHNOLOGY PHILIPPINES INC.</p>
-            <div class="d-flex align-items-center">
-                <p class="p-2"><i class="fas fa-bolt"></i></p>
-                <p>Electrical Distribution.</p>  
-            </div>
-            <div class="d-flex align-items-center">
-                <p class="p-2"><i class="fas fa-solar-panel"></i></p>
-                <p>Solar Powered systems.</p>  
-            </div>
-            <div class="my-3">
-                <a class="btn" href="#plans">Get Quote</a>
-            </div>
-        </div> <!-- end of container -->
-    </section> <!-- end of home -->
-
-
-    <!-- Information -->
-    <section class="information">
-        <div class="container-fluid">  
-            <div class="row text-light">
-                <div class="col-lg-4 text-center p-5" data-aos="zoom-in">
-                    <i class="fas fa-bolt fa-3x p-2"></i>
-                    <h4 class="py-3">NEC Standard</h4>
-                    <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                <!-- Start details for portfolio project 1 -->
+                <div id="single-project">
+                    <div id="slidingDiv" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio01.png" alt="project 1" />
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span>Some Client Name</div>
+                                    <div>
+                                        <span>Date</span>July 2013</div>
+                                    <div>
+                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 1 -->
+                    <!-- Start details for portfolio project 2 -->
+                    <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio02.png" alt="project 2">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span>Some Client Name</div>
+                                    <div>
+                                        <span>Date</span>July 2013</div>
+                                    <div>
+                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>Life is a song - sing it. Life is a game - play it. Life is a challenge - meet it. Life is a dream - realize it. Life is a sacrifice - offer it. Life is love - enjoy it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 2 -->
+                    <!-- Start details for portfolio project 3 -->
+                    <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio03.png" alt="project 3">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span>Some Client Name</div>
+                                    <div>
+                                        <span>Date</span>July 2013</div>
+                                    <div>
+                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>How far you go in life depends on your being tender with the young, compassionate with the aged, sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you will have been all of these.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 3 -->
+                    <!-- Start details for portfolio project 4 -->
+                    <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio04.png" alt="project 4">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Project for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span>Some Client Name</div>
+                                    <div>
+                                        <span>Date</span>July 2013</div>
+                                    <div>
+                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 4 -->
+                    <!-- Start details for portfolio project 5 -->
+                    <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio05.png" alt="project 5">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span>Some Client Name</div>
+                                    <div>
+                                        <span>Date</span>July 2013</div>
+                                    <div>
+                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>We need to give each other the space to grow, to be ourselves, to exercise our diversity. We need to give each other space so that we may both give and receive such beautiful things as ideas, openness, dignity, joy, healing, and inclusion.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 5 -->
+                    <!-- Start details for portfolio project 6 -->
+                    <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio06.png" alt="project 6">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span>Some Client Name</div>
+                                    <div>
+                                        <span>Date</span>July 2013</div>
+                                    <div>
+                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 6 -->
+                    <!-- Start details for portfolio project 7 -->
+                    <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio07.png" alt="project 7">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span>Some Client Name</div>
+                                    <div>
+                                        <span>Date</span>July 2013</div>
+                                    <div>
+                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>Always continue the climb. It is possible for you to do whatever you choose, if you first get to know who you are and are willing to work with a power that is greater than ourselves to do it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 7 -->
+                    <!-- Start details for portfolio project 8 -->
+                    <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio08.png" alt="project 8">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span>Some Client Name</div>
+                                    <div>
+                                        <span>Date</span>July 2013</div>
+                                    <div>
+                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>What if you gave someone a gift, and they neglected to thank you for it - would you be likely to give them another? Life is the same way. In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 8 -->
+                    <!-- Start details for portfolio project 9 -->
+                    <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio09.png" alt="project 9">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Client</span>Some Client Name</div>
+                                    <div>
+                                        <span>Date</span>July 2013</div>
+                                    <div>
+                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                    <div>
+                                        <span>Link</span>http://examplecomp.com</div>
+                                </div>
+                                <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 9 -->
+                    <ul id="portfolio-grid" class="thumbnails row">
+                        <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio01.png" alt="project 1">
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio02.png" alt="project 2">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio03.png" alt="project 3">
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio04.png" alt="project 4">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio05.png" alt="project 5">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio06.png" alt="project 6">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio07.png" alt="project 7" />
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio08.png" alt="project 8">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix identity">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio09.png" alt="project 9">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-lg-4 text-center p-5"  data-aos="zoom-in">
-                    <i class="fas fa-solar-panel fa-3x p-2"></i>
-                    <h4 class="py-3">Solar Powered systems</h4>
-                    <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                </div>
-                <div class="col-lg-4 text-center p-5 text-dark"  data-aos="zoom-in"> 
-                    <i class="fas fa-pen-square fa-3x p-2"></i>
-                    <h4 class="py-3">Electrical Design and Layout	 </h4>
-                    <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                </div>
             </div>
-        </div> <!-- end of container -->
-    </section> <!-- end of information -->
-    
+        </div>
+        <!-- Portfolio section end -->
+        <!-- About us section start -->
+        <div class="section primary-section" id="about">
+            <div class="triangle"></div>
+            <div class="container">
+                <div class="title">
+                    <h1>Who We Are?</h1>
+					<h3>About Us</h3>
+                    <p>SinagPower Technology Philippines Inc. began works as a contractor in the mid-year of 2019. The company started to serve first as manpower for the installation of solar powered establishment and distribution line projects.</p>
 
-    <!-- About -->
-    <section class="about d-flex align-items-center text-light py-5" id="about">
-        <div class="container" >
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-7" data-aos="fade-right">
+<p>The company established its name before the year of 2019 ended. The people behind the company firmly believes that in order to serve a good quality service to the client, a good quality company must be serve first to the employee.</p>
+
+<p>Our main objective as electrical contractor is to help the people economically by promoting the use of renewable energy. We also aim to be a part of an institution that open the opportunity on the secluded area to be reached by the electrical industry. The company aims to build a country wherein electricity is no longer a privilege.</p>
+
+					<h3>Vision</h3>
+<p>To be recognized as one of the respected electrical contractor and be known in the electrical industry on promoting natural resources and supporting power industry using renewable energy in the Philippines.</p>
+
+<h3>Mission</h3>
+<p>To construct a solar powered community. To build a transmission and distribution line that aims to reach secluded area in the Philippines. To deliver a good quality service needed by the client. Always</p>
+                </div>
+               
+                <div class="about-text centered">
                     
-					                <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img class="img-fluid" src="assets/images/sinag.png" alt="about" >
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
                 </div>
-				<p>ABOUT US</p>
-                    <h1>Building beyond <br> expectation</h1>
-                    <p class="py-2 para-light">SinagPower Technology Philippines Inc. began works as a contractor in the mid-year of 2019. The company started to serve first as manpower for the installation of solar powered establishment and distribution line projects.</p>
-                    <p class="py-2 para-light">The company established its name before the year of 2019 ended. The people behind the company firmly believes that in order to serve a good quality service to the client, a good quality company must be serve first to the employee.<p>
-					<p class="py-2 para-light">Our main objective as electrical contractor is to help the people economically by promoting the use of renewable energy. We also aim to be a part of an institution that open the opportunity on the secluded area to be reached by the electrical industry. The company aims to build a country wherein electricity is no longer a privilege.<p>
-					<h1>Vision</h1>
-					<p class="py-2 para-light">To be recognized as one of the respected electrical contractor and be known in the electrical industry on promoting natural resources and supporting power industry using renewable energy in the Philippines.<p>
-					<h1>Mission</h1>
-					<p class="py-2 para-light">To construct a solar powered community. To build a transmission and distribution line that aims to reach secluded area in the Philippines. To deliver a good quality service needed by the client. Always<p>
-
-                    <!-- <div class="my-3">
-                        <a class="btn" href="#your-link">Learn More</a>
-                    </div> -->
-                </div>
-
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of about -->
-
-
-    <!-- Services -->
-    <section class="services d-flex align-items-center py-5" id="services">
-        <div class="container text-light">
-            <div class="text-center pb-4" >
-                <p>OUR SERVICES</p> 
-                <h2 class="py-2">Building beyond expectation</h2>
-                <p class="para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores, quia accusantium sunt corporis optio recusandae? Nostrum libero pariatur cumque, ipsa dolores voluptatibus voluptate alias sit fuga. Itaque, ea quo.</p>
-            </div>
-            <div class="row gy-4 py-2" data-aos="zoom-in">
-                <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-bolt fa-2x"></i>
-                        <h4 class="py-2">Distribution Line</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+               <!--  <h3>Skills</h3>
+                <div class="row-fluid">
+                    <div class="span6">
+                        <ul class="skills">
+                            <li>
+                                <span class="bar" data-width="80%"></span>
+                                <h3>Graphic Design</h3>
+                            </li>
+                            <li>
+                                <span class="bar" data-width="95%"></span>
+                                <h3>Html & Css</h3>
+                            </li>
+                            <li>
+                                <span class="bar" data-width="68%"></span>
+                                <h3>jQuery</h3>
+                            </li>
+                            <li>
+                                <span class="bar" data-width="70%"></span>
+                                <h3>Wordpress</h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="span6">
+                        <div class="highlighted-box center">
+                            <h1>We're Hiring</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, ullamcorper suscipit lobortis nisl ut aliquip consequat. I learned that we can do anything, but we can't do everything...</p>
+                            <button class="button button-sp">Join Us</button>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-solar-panel fa-2x"></i>
-                        <h4 class="py-2"> Solar System for households</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                    </div>                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-bolt fa-2x"></i>
-                        <h4 class="py-2">Transmission Line</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                    </div>                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-pen-square fa-2x"></i>
-                        <h4 class="py-2">Electrical Design and Layout</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                    </div>                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-bolt fa-2x"></i>
-                        <h4 class="py-2">Power Transformers</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                    </div>                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-solar-panel fa-2x"></i>
-                        <h4 class="py-2">Solar Powered water pumps</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                    </div>                    
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of services -->
-
-
-    <!-- Plans -->
-    <section class="plans d-flex align-items-center py-5" id="plans">
-        <div class="container text-light" >
-            <div class="text-center pb-4">
-                <p>OUR PLANS</p>
-                <h2 class="py-2">Building beyond expectation</h2>
-                <p class="para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores, quia accusantium sunt corporis optio recusandae? Nostrum libero pariatur cumque, ipsa dolores voluptatibus voluptate alias sit fuga. Itaque, ea quo.</p>
             </div>
-            <div class="row gy-4" data-aos="zoom-in">
-                <div class="col-lg-4">
-                    <div class="card bg-transparent px-4">
-                        <h4 class="py-2">5 kWp</h4>
-                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <h4 class="py-3">kWp/Month</h4>
-                        <div class="my-3">
-                            <a class="btn" href="#your-link" >View Plans</a>
-                        </div>
-                    </div>  
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="card bg-transparent px-4">
-                        <h4 class="py-2">8 kWp</h4>
-                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <h4 class="py-3">kWp/Month</h4>
-                        <div class="my-3">
-                            <a class="btn" href="#your-link" >View Plans</a>
-                        </div>
-                    </div>  
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="card bg-transparent px-4" >
-                        <h4 class="py-2">10 kWp</h4>
-                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <h4 class="py-3">kWp/Month</h4>
-                        <div class="my-3">
-                            <a class="btn" href="#your-link" >View Plans</a>                    
-                        </div>
-                    </div>  
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of plans -->
-
-
-    <!-- Work -->
-    <section class="work d-flex align-items-center py-5" >
-        <div class="container-fluid text-light">
-            <div class="row">
-                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right">
-                    <img class="img-fluid" src="./assets/images/work.jpg" alt="work">        
-                </div>
-                <div class="col-lg-5 d-flex align-items-center px-4 py-3" data-aos="">
+        </div> -->
+        <!-- About us section end -->
+        <div class="section secondary-section">
+            <div class="triangle"></div>
+            <div class="container centered">
+                <p class="large-text">Building beyond expectation. learn about solar system.</p>
+                <a href="#learn" class="button">read more</a>
+            </div>
+        </div>
+        <!-- Client section start -->
+        <!-- Client section start -->
+        <div id="clients">
+            <div class="section primary-section">
+                <div class="triangle"></div>
+                <div class="container">
+                    <div class="title">
+                        <h1>What Client Say?</h1>
+                        <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                    </div>
                     <div class="row">
-                        <div class="text-center text-lg-start py-4 pt-lg-0">
-                            <p>OUR WORK</p>
-                            <h2 class="py-2">Building beyond expectation</h2>
-                            <p class="para-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos dicta mollitia totam explicabo obcaecati quia laudantium repudiandae.</p>
-                        </div>
-                        <div class="container" data-aos="fade-up">
-                            <div class="row g-5">
-                                <div class="col-6 text-start" >
-                                    <i class="fas fa-briefcase fa-2x text-start"></i>
-                                    <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="1258" data-purecounter-duration="3">1</h2>
-                                    <p>PROJECTS COMPLETED</p>
-                                </div>
-                                <div class="col-6" >
-                                    <i class="fas fa-award fa-2x"></i>
-                                    <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="3">1</h2>
-                                    <p>AWARDS</p>
-                                </div>
-                                <div class="col-6">
-                                    <i class="fas fa-users fa-2x"></i>
-                                    <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="1255" data-purecounter-duration="3">1</h2>
-                                    <p>CUSTOMER ACTIVE</p>
-                                </div>
-                                <div class="col-6">
-                                    <i class="fas fa-clock fa-2x"></i>
-                                    <h2 class="purecounter" data-purecounter-start="0" data-purecounter-end="1157" data-purecounter-duration="3">1</h2>
-                                    <p>GOOD REVIEWS</p>
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>"I've worked too hard and too long to let anything stand in the way of my goals. I will not let my teammates down and I will not let myself down."</p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/Client1.png" class="centered" alt="client 1">
+                                    <strong>John Doe
+                                        <small>Client</small>
+                                    </strong>
                                 </div>
                             </div>
-                        </div> <!-- end of container -->
-                    </div> <!-- end of row -->
-                </div> <!-- end of col-lg-5 -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of work -->
-
-
-    <!-- Testimonials -->
-    <div class="slider-1 testimonial text-light d-flex align-items-center">
-        <div class="container">
-            <div class="row">
-                <div class="text-center w-lg-75 m-auto pb-4">
-                    <p>TESTIMONIALS</p>
-                    <h2 class="py-2">What Our Clients Says</h2>
-                    <p class="para-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci esse facilis vel, neque ipsa mollitia impedit, commodi ab illo dignissimos, voluptatum quae amet sed tenetur dolores reprehenderit laudantium quo sint.</p>
-                </div>
-            </div> <!-- end of row -->
-            <div class="row p-2" data-aos="zoom-in">
-                <div class="col-lg-12">
-
-                    <!-- Card Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam commodi officia laborum qui iste quidem!</p>
-                                    
-                                        <div class="d-flex pt-4">
-                                            <div>
-                                                <img class="avatar" src="" alt="testimonial">
-                                            </div>
-                                            <div class="ms-3 pt-2">
-                                                <h6>FBF</h6>
-                                                <p>President of FBF</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam commodi officia laborum qui iste quidem!</p>
-                                        <div class="d-flex pt-4">
-                                            <div>
-                                                <img class="avatar" src="" alt="testimonial">
-                                            </div>
-                                            <div class="ms-3 pt-2">
-                                                <h6>Alpha Mart</h6>
-                                                <p>market</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-
-
-                            </div> <!-- end of swiper-wrapper -->
-        
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-        
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of card slider -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of testimonials -->
-
-
-    <!-- Newsletter -->
-    <section class="newsletter text-light py-5">
-        <div class="container">
-            <div class="row" >
-                <div class="col-lg-6 text-center text-lg-start" data-aos="fade-right">
-                    <h4 class="py-1">Subscribe to our Newsletter</h4>
-                    <p class="para-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor deleniti nobis amet accusamus debitis facilis quibusdam officia laborum nesciunt. Nihil.</p>
-                </div>
-                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down">
-                    <div class="input-group my-3">
-                        <input type="text" class="form-control p-2" placeholder="Enter your email address" aria-label="Recipient's email">
-                        <button class="btn-secondary text-light" type="button">Subscribe</button>
-                    </div>
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of newsletter -->
-
-
-    <!-- Contact -->
-    <section class="contact d-flex align-items-center py-5" id="contact">
-        <div class="container-fluid text-light">
-            <div class="row">
-                <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5" data-aos="fade-right">
-                    <div style="width:90%">
-                        <div class="text-center text-lg-start py-4 pt-lg-0">
-                            <p>CONTACT</p>
-                            <h2 class="py-2">Send your query</h2>
-                            <p class="para-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos dicta mollitia totam explicabo obcaecati quia laudantium repudiandae.</p>
                         </div>
-                        <div>
-                            <div class="row" >
-                                <div class="col-lg-6">
-                                    <div class="form-group py-2">
-                                        <input type="text" class="form-control form-control-input" id="exampleFormControlInput1" placeholder="Enter name">
-                                    </div>                                
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group py-2">
-                                        <input type="email" class="form-control form-control-input" id="exampleFormControlInput2" placeholder="Enter phone number">
-                                    </div>                                 
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>"In motivating people, you've got to engage their minds and their hearts. I motivate people, I hope, by example - and perhaps by excitement, by having productive ideas to make others feel involved."</p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/Client2.png" class="centered" alt="client 2">
+                                    <strong>John Doe
+                                        <small>Client</small>
+                                    </strong>
                                 </div>
                             </div>
-                            <div class="form-group py-1">
-                                <input type="email" class="form-control form-control-input" id="exampleFormControlInput3" placeholder="Enter email">
-                            </div>  
-                            <div class="form-group py-2">
-                                <textarea class="form-control form-control-input" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
-                            </div>                            
                         </div>
-                        <div class="my-3">
-                            <a class="btn form-control-submit-button" href="#your-link">Submit</a>
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>"Determine never to be idle. No person will have occasion to complain of the want of time who never loses any. It is wonderful how much may be done if we are always doing."</p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/Client3.png" class="centered" alt="client 3">
+                                    <strong>John Doe
+                                        <small>Client</small>
+                                    </strong>
+                                </div>
+                            </div>
                         </div>
-                    </div> <!-- end of div -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down">
-                    <img class="img-fluid d-none d-lg-block" src="assets/images/sinag.png" alt="contact">        
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of contact -->
-
-
-    <!-- Location -->
-    <section class="location text-light py-5">
-        <div class="container" data-aos="zoom-in">
-            <div class="row">
-                <div class="col-lg-3 d-flex align-items-center">
-                    <div class="p-2"><i class="far fa-map fa-3x"></i></div>
-                    <div class="ms-2">
-                        <h6>ADDRESS</h6>
-                        <p>Diwa Pilar Bataan</p>
                     </div>
+                    <p class="testimonial-text">
+                        "Perfection is Achieved Not When There Is Nothing More to Add, But When There Is Nothing Left to Take Away"
+                    </p>
                 </div>
-                <div class="col-lg-3 d-flex align-items-center" >
-                    <div class="p-2"><i class="fas fa-mobile-alt fa-3x"></i></div>
-                    <div class="ms-2">
-                        <h6>CALL FOR QUERY</h6>
-                        <p>0956 932 7750</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center" >
-                    <div class="p-2"><i class="far fa-envelope fa-3x"></i></div>
-                    <div class="ms-2">
-                        <h6>SEND US MESSAGE</h6>
-                        <p>info@sinagpowertech.com</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex align-items-center" >
-                    <div class="p-2"><i class="far fa-clock fa-3x"></i></div>
-                    <div class="ms-2">
-                        <h6>OPENING HOURS</h6>
-                        <p>09:00 AM - 18:00 PM</p>
-                    </div>
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of location -->
-
-
-    <!-- Footer -->
-    <section class="footer text-light">
-        <div class="container">
-            <div class="row" data-aos="fade-right">
-                <div class="col-lg-3 py-4 py-md-5">
-                    <div class="d-flex align-items-center">
-                        <h4 class="">Sinagpower Technlogy Philippines Inc.</h4>
-                    </div>
-                    <p class="py-3 para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi repudiandae explicabo esse maxime, impedit rem voluptatibus amet error quas.</p>
-                    <div class="d-flex">
-                        <div class="me-3">
-                            <a href="https://web.facebook.com/sinagpowertech">
-                                <i class="fab fa-facebook-f fa-2x py-2"></i>
-                            </a>
-                        </div>
-                        <!-- <div class="me-3">
-                            <a href="#your-link">
-                                <i class="fab fa-twitter fa-2x py-2"></i>
-                            </a>
-                        </div>
-                        <div class="me-3">
-                            <a href="#your-link">
-                                <i class="fab fa-instagram fa-2x py-2"></i>
-                            </a>
-                        </div> -->
-                    </div>
-                </div> <!-- end of col -->
-
-                <div class="col-lg-3 py-4 py-md-5">
-                    <div>
-                        <h4 class="py-2">Quick Links</h4>
-                        <div class="d-flex align-items-center py-2">
-                            <i class="fas fa-caret-right"></i>
-                            <a href="#about"><p class="ms-3">About</p></a>
-                        </div>
-                        <div class="d-flex align-items-center py-2">
-                            <i class="fas fa-caret-right"></i>
-                            <a href="#"><p class="ms-3">Services</p></a>
-                        </div>
-                        <div class="d-flex align-items-center py-2">
-                            <i class="fas fa-caret-right"></i>
-                            <a href="#"><p class="ms-3">Plans</p></a>
-                        </div>
-                        <div class="d-flex align-items-center py-2">
-                            <i class="fas fa-caret-right"></i>
-                            <a href="#"><p class="ms-3">Contact</p></a>
-                        </div>
-                    </div>
-                </div> <!-- end of col -->
-
-                <div class="col-lg-3 py-4 py-md-5">
-                    <div>
-                        <h4 class="py-2">Useful Links</h4>
-                        <!--  <div class="d-flex align-items-center py-2">
-                            <i class="fas fa-caret-right"></i>
-                            <a href="privacy.html"><p class="ms-3">Privacy</p></a>    
-                        </div>
-                       <div class="d-flex align-items-center py-2">
-                            <i class="fas fa-caret-right"></i>
-                            <a href="terms.html"><p class="ms-3">Terms</p></a>
-                        </div>
-                        <div class="d-flex align-items-center py-2">
-                            <i class="fas fa-caret-right"></i>
-                            <a href="#your-link"><p class="ms-3">Disclaimer</p></a>
-                        </div>
-                        <div class="d-flex align-items-center py-2">
-                            <i class="fas fa-caret-right"></i>
-                            <a href="#your-link"><p class="ms-3">FAQ</p></a>
-                        </div> -->
-                    </div>
-                </div> <!-- end of col -->
-
-                <div class="col-lg-3 py-4 py-md-5">
-                    <div class="d-flex align-items-center">
-                        <h4>Newsletter</h4>
-                    </div>
-                    <p class="py-3 para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, ab.</p>
-                    <div class="d-flex align-items-center">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control p-2" placeholder="Enter Email" aria-label="Recipient's email">
-                            <button class="btn-secondary text-light"><i class="fas fa-envelope fa-lg"></i></button>       
-                        </div>
-                    </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of footer -->
-
-
-    <!-- Bottom -->
-    <div class="bottom py-2 text-light" >
-        <div class="container d-flex justify-content-between">
-            <div>
-                <p>Copyright © SINAGPOWER</p><br>
-                <!-- <p>Distributed by: <a href="https://themewagon.com/">Themewagon</a></p> -->
             </div>
-            <!-- <div>
-                <i class="fab fa-cc-visa fa-lg p-1"></i>
-                <i class="fab fa-cc-mastercard fa-lg p-1"></i>
-                <i class="fab fa-cc-paypal fa-lg p-1"></i>
-                <i class="fab fa-cc-amazon-pay fa-lg p-1"></i>
-            </div> -->
-        </div> <!-- end of container -->
-    </div> <!-- end of bottom -->
- 
-    
-    <!-- Back To Top Button -->
-    <button onclick="topFunction()" id="myBtn">
-        <img src="assets/images/up-arrow.png" alt="alternative">
-    </button>
-    <!-- end of back to top button -->
-
-    
-    <!-- Scripts -->
-    <script src="./js/bootstrap.min.js"></script><!-- Bootstrap framework -->
-    <script src="./js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-    <script src="./js/swiper.min.js"></script><!-- Swiper for image and text sliders -->
-    <script src="./js/aos.js"></script><!-- AOS on Animation Scroll -->
-    <script src="./js/script.js"></script>  <!-- Custom scripts -->
-</body>
+        </div>
+        <div class="section third-section">
+            <div class="container centered">
+                <div class="sub-section">
+                    <div class="title clearfix">
+                        <div class="pull-left">
+                            <h3>Our Partners</h3>
+                        </div>
+                        <ul class="client-nav pull-right">
+                            <li id="client-prev"></li>
+                            <li id="client-next"></li>
+                        </ul>
+                    </div>
+                    <ul class="row client-slider" id="clint-slider">
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo01.png" alt="client logo 1">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo02.png" alt="client logo 2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo03.png" alt="client logo 3">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo04.png" alt="client logo 4">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo05.png" alt="client logo 5">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo02.png" alt="client logo 6">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo04.png" alt="client logo 7">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Price section start -->
+        <div id="learn" class="section secondary-section">
+            <div class="container">
+                <div class="title">
+                    <h1>Solar Systems</h1>
+                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                </div>
+                <div class="price-table row-fluid">
+                    <div class="span4 price-column">
+                        <h3>6kWp</h3>
+                        <ul class="list">
+							<li class="price">Php.480K</li>
+                            <li><strong>Free</strong> Installation</li>
+                            <li><strong>24/7</strong> Support</li>
+                            <li><strong>Optional</strong> Power Storage</li>
+                      </ul>
+                        <a href="#" class="button button-ps">GET Quotation</a>
+                    </div>
+                    <div class="span4 price-column">
+                        <h3>8kWp</h3>
+                        <ul class="list">
+                            <li class="price">Php.640K</li>
+                            <li><strong>Free</strong> Installation</li>
+                            <li><strong>24/7</strong> Support</li>
+                            <li><strong>Optional</strong> Power Storage</li>
+                        </ul>
+                        <a href="#" class="button button-ps">GET Quotation</a>
+                    </div>
+                    <div class="span4 price-column">
+                        <h3>10kWp</h3>
+                        <ul class="list">
+                            <li class="price">Php.800K</li>
+                            <li><strong>Free</strong> Installation</li>
+                            <li><strong>24/7</strong> Support</li>
+                            <li><strong>Optional</strong> Power Storage</li>
+                        </ul>
+                        <a href="#" class="button button-ps">GET Quotation</a>
+                    </div>
+                </div>
+                <div class="centered">
+                    <p class="price-text">We Offer Custom Plans. Contact Us For More Info.</p>
+                    <a href="#contact" class="button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <!-- Price section end -->
+        <!-- Newsletter section start -->
+        <div class="section third-section">
+            <div class="container newsletter">
+                <div class="sub-section">
+                    <div class="title clearfix">
+                        <div class="pull-left">
+                            <h3>Newsletter</h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="success-subscribe" class="alert alert-success invisible">
+                    <strong>Well done!</strong>You successfully subscribet to our newsletter.</div>
+                <div class="row-fluid">
+                    <div class="span5">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <div class="span7">
+                        <form class="inline-form">
+                            <input type="email" name="email" id="nlmail" class="span8" placeholder="Enter your email" required />
+                            <button id="subscribe" class="button button-sp">Subscribe</button>
+                        </form>
+                        <div id="err-subscribe" class="error centered">Please provide valid email address.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter section end -->
+        <!-- Contact section start -->
+        <div id="contact" class="contact">
+            <div class="section secondary-section">
+                <div class="container">
+                    <div class="title">
+                        <h1>Contact Us</h1>
+                        <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                    </div>
+                </div>
+                <div class="map-wrapper">
+                    <div class="map-canvas" id="map-canvas">Loading map...</div>
+                    <div class="container">
+                        <div class="row-fluid">
+                            <div class="span5 contact-form centered">
+                                <h3 style="color: #0fa176;" >
+								<a href="mailto:info@sinagpowertech.com">Send us message</a></h3>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="span9 center contact-info">
+                        <p>Diwa Pilar Bataan</p>
+                       <p><a href="mailto:info@sinagpowertech.com">info@sinagpowertech.com</a></p>
+                        <p>temporary number</p>
+                        <p>+63956 932 7750</p>
+                        <div class="title">
+                            <h3>We Are Social</h3>
+                        </div>
+                    </div>
+                    <div class="row-fluid centered">
+                        <ul class="social">
+                            <li>
+                                <a href="">
+                                    <span class="icon-facebook-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon-twitter-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon-linkedin-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon-pinterest-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon-dribbble-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon-gplus-circled"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact section edn -->
+        <!-- Footer section start -->
+        <div class="footer">
+            <p>&copy; 2022 Sinagpower Technology Philippines Inc. <a href="http://www.sinagpowertech.com">Sinagpower</a> <!--, <a href="http://goo.gl/NM84K2">Documentation</a>--></p>
+        </div>
+        <!-- Footer section end -->
+        <!-- ScrollUp button start -->
+        <div class="scrollup">
+            <a href="#">
+                <i class="icon-up-open"></i>
+            </a>
+        </div>
+        <!-- ScrollUp button end -->
+        <!-- Include javascript -->
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+        <script type="text/javascript" src="js/jquery.cslider.js"></script>
+        <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+        <script type="text/javascript" src="js/jquery.inview.js"></script>
+        <!-- Load google maps api and call initializeMap function defined in app.js -->
+        <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
+        <!-- css3-mediaqueries.js for IE8 or older -->
+        <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
 </html>
